@@ -12,6 +12,7 @@ export default function Card({ text }) {
   );
 }
 
+
 const styles = StyleSheet.create({
   card: {
     backgroundColor: '#fca',
@@ -29,6 +30,7 @@ const styles = StyleSheet.create({
   text: {
     fontSize: 25,
     textAlign: 'center',
-    color:'#a55'
+    color:'#191',
+    fontWeight:'bold'
   },
 });

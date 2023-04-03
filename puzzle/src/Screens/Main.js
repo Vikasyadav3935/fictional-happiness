@@ -7,25 +7,17 @@ const Main = ({navigation}) => {
   return (
     <View style={styles.view}>
       <StatusBar backgroundColor={'#aaa444'}/>
+      <View style={{marginTop:40,backgroundColor:'#fbf00044',width:'105%',elevation:5}}>
+        <Text style={{fontSize:35,textAlign:'center',marginTop:8,color:'black',fontWeight:'600'}}>पहेलियाँ</Text>
+      </View>
       <View style={{marginTop:20}}>
-        {/* <TouchableOpacity style={styles.btn} 
-        // onPress={()=>navigation.navigate('Puzzle')}
-        >
-        <Text></Text>
-        <Text style={styles.txt}>मजेदार पहेलियाँ</Text>
-        </TouchableOpacity>
-        <TouchableOpacity style={styles.btn}>
-        <Text></Text>
-        <Text style={styles.txt}>स्तर</Text>
-        </TouchableOpacity> */}
-
         <FlatList
          
          data={paheli}
 
          renderItem={({item})=>(
           <TouchableOpacity style={styles.btn}
-          onPress={()=>navigation.navigate('Puzzle')}
+          onPress={()=>navigation.navigate('Puzzle',{itemId:item.id})}
           >
           
           <Text style={styles.txt}>{item.id}. {item.title}</Text>
@@ -46,7 +38,7 @@ export default Main;
 
 const styles=StyleSheet.create({
   view:{
-     backgroundColor:'#aaa444',
+     backgroundColor:'#faa444',
      flex:1,
      justifyContent:'center',
      alignItems:'center',
@@ -58,7 +50,7 @@ const styles=StyleSheet.create({
 
   },
   btn:{
-    backgroundColor:'#333',
+    backgroundColor:'#393',
     flexDirection:'row',
     paddingHorizontal:15,
     paddingVertical:8,

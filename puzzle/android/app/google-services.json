@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "370253657406",
+    "project_id": "paheli-1a5b6",
+    "storage_bucket": "paheli-1a5b6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:370253657406:android:1f40f9af78a31ba485286f",
+        "android_client_info": {
+          "package_name": "com.puzzle"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "370253657406-no9g15i6skoehrce6h0u6o2ch1ho7h1b.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.puzzle",
+            "certificate_hash": "bb8839cfbec8c21af5059fa19f9f9661312dc18e"
+          }
+        },
+        {
+          "client_id": "370253657406-u7uif2ff4ontfc8h4ub5915liaj013t5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCf2S-I5Qq6mhoh2Tj130i1Nh-xPBQ8tjE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "370253657406-u7uif2ff4ontfc8h4ub5915liaj013t5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
